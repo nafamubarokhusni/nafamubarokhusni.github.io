@@ -1,15 +1,11 @@
-export const dynamic = 'force-static'
+import type { MetadataRoute } from 'next'
 
-export function GET() {
-  return new Response(
-    `User-agent: *
-Allow: /
-
-Sitemap: https://yourdomain.com/sitemap.xml`,
-    {
-      headers: {
-        'Content-Type': 'text/plain',
-      },
-    }
-  )
+export default function robots(): MetadataRoute.Robots {
+  return {
+    rules: {
+      userAgent: '*',
+      allow: '/',
+    },
+    sitemap: 'https://nafamubarokhusni.github.io/sitemap.xml',
+  }
 }
