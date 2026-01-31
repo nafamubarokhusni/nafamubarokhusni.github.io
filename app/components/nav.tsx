@@ -8,8 +8,8 @@ const navItems = {
   '/blog': {
     name: 'blog',
   },
-  'http://hnmtech.me/portofolio/': {
-    name: 'portofolio',
+  '/portofolio/': {
+    name: 'portfolio',
   },
 }
 
