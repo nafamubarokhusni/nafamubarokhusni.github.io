@@ -1,12 +1,15 @@
-import { baseUrl } from 'app/sitemap'
+export const dynamic = 'force-static'
 
-export default function robots() {
-  return {
-    rules: [
-      {
-        userAgent: '*',
+export function GET() {
+  return new Response(
+    `User-agent: *
+Allow: /
+
+Sitemap: https://yourdomain.com/sitemap.xml`,
+    {
+      headers: {
+        'Content-Type': 'text/plain',
       },
-    ],
-    sitemap: `${baseUrl}/sitemap.xml`,
-  }
+    }
+  )
 }
