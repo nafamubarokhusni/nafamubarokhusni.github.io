@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portofolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.webp" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/pas foto.webp" alt="Husni Nafa Mubarok" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Husni Nafa Mubarok">Husni Nafa Mubarok</h1>
+
+          <p class="title">Data Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:nafamubarokhusni@gmail.com" class="contact-link">nafamubarokhusni@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+6285158112916" class="contact-link">+6285158112916</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-04-15">April 15, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Garut, West Java, Indonesia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/husni.n.mubarok.35" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/HusniNafaMubar1" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/husni_n_m_15/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/hnm-tech/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/nafamubarokhusni" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portofolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publication</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Data Scientist from Garut, Indonesia, specializing in data analysis, machine learning, and web development.
+            I enjoy transforming complex data into actionable insights and building intelligent, user-friendly solutions.
+          </p>
+
+          <p>
+            As a Data Scientist, I specialize in extracting insights from complex datasets, building predictive models, and delivering data-driven solutions. My expertise includes data analysis, machine learning, and visualization to help organizations make informed decisions. I am passionate about turning raw data into actionable strategies and creating impactful results through technology and innovation.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-ml.svg" alt="Machine Learning icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                    Build and deploy machine learning models for real-world applications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-viz.svg" alt="Data visualization icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data visualization</h4>
+
+                <p class="service-item-text">
+                  Transforming data into insightful visualizations to aid decision-making.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-cloud.svg" alt="cloud computing icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Computing</h4>
+
+                <p class="service-item-text">
+                  Professional development of cloud-based applications and services.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-data.svg" alt="data icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                <p class="service-item-text">
+                  Analyze complex datasets to extract actionable insights.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        
+          <!-- - testimonials modal -->
+       
+
+        <!-- <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div> -->
+
+
+        
+          <!-- - Badges -->
+       
+
+        <section class="badges">
+
+          <h3 class="h3 badges-title">Badges & Certifications</h3>
+
+          <ul class="badges-list has-scrollbar">
+
+            <li class="badges-item">
+              <a href="https://www.credly.com/badges/ac1c7f9f-5c5c-4bf5-8356-133b0d17219c/public_url">
+                <img src="./assets/images/badges/building-ai-solutions-using-advanced-algorithms-and-open-source-frameworks.png" alt="building-ai-solutions-using-advanced-algorithms-and-open-source-frameworks">
+              </a>
+
+            <li class="badges-item">
+              <a href="https://www.credly.com/badges/aa150bde-28da-42b1-b8b4-c811d0e6a841/public_url">
+                <img src="./assets/images/badges/building-rag-apps-using-mongodb.png" alt="building-rag-apps-using-mongodb">
+              </a>
+
+            <li class="badges-item">
+              <a href="https://www.credly.com/badges/45572b0b-dfb8-499f-8206-6775b9236e87/public_url">
+                <img src="./assets/images/badges/career-management-essentials.png" alt="career-management-essentials">
+              </a>
+            </li>
+
+            <li class="badges-item">
+              <a href="https://www.credly.com/badges/ed75a7a7-28c1-4a72-8317-edf7e2309a12/public_url">
+                <img src="./assets/images/badges/data-classification-and-summarization-using-ibm-gra.png" alt="data-classification-and-summarization">
+              </a>
+            </li>
+
+            <li class="badges-item">
+              <a href="https://www.credly.com/badges/5584a5c2-2321-4321-86af-92e928046e44/public_url">
+                <img src="./assets/images/badges/data-fundamentals.png" alt="data-fundamentals">
+              </a>
+            </li>
+
+            <li class="badges-item">
+              <a href="https://www.credly.com/badges/bac9ae45-00bd-4406-844b-95436449d386/public_url">
+                <img src="./assets/images/badges/data-science-methodologies.png" alt="data-science-methodologies">
+              </a>
+            </li>
+
+            <li class="badges-item">
+              <a href="https://www.credly.com/badges/56031457-a1d8-4af7-aacd-2fd3c4ef8e10/public_url">
+                <img src="./assets/images/badges/data-science-tools.png" alt="data-science-tools">
+              </a>
+            </li>
+
+            <!-- <li class="badges-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Science, Sumatera Institute of Technology</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                Studying Data Science with a focus on statistics, machine learning, and Deep learning. Gained hands-on experience in Python, R, and SQL, and worked on projects involving data visualization, predictive modeling, and real-world problem solving.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SMAN 1 Parongpong</h4>
+
+              <span>2018 — 2021</span>
+
+              <p class="timeline-text">
+                Studied at SMAN 1 Parongpong with a focus on Science (MIPA), covering mathematics, physics, chemistry, and biology. Developed strong analytical and problem-solving skills through coursework and laboratory activities.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MTs. Al-Ashdariyah</h4>
+
+              <span>2015 — 2018</span>
+
+              <p class="timeline-text">
+                Studied at MTs. Al-Ashdariyah with a focus on Islamic studies, mathematics, and natural sciences. Developed a strong foundation in critical thinking and problem-solving skills.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Scientist, Databits Indonesia.</h4>
+
+              <span>2025 — present</span>
+
+              <p class="timeline-text">
+                Working as a Data Scientist, developing and deploying machine learning models for real-world applications. Responsible for data preprocessing, feature engineering, model training, and evaluation. Collaborated with team members to implement scalable solutions and optimize model performance for client projects.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Head of Website Division, Madani ITERA</h4>
+
+              <span>2024 — 2025</span>
+
+              <p class="timeline-text">
+                Leading the website division, overseeing all aspects of web development, design, and user experience.
+                Collaborating with cross-functional teams to deliver high-quality digital products that meet client
+                needs.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">
+                Head of Machine Learning Division, Projek Sains Data</a>
+              </h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Led the Machine Learning Division, managing a team to develop and deploy machine learning models for various data science projects. Oversaw research, model development, and implementation of solutions for clients. Coordinated training sessions and contributed to the growth of the division through innovation and collaboration.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data visualization</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Big Data</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTOFOLIO
+      -->
+
+      <article class="portofolio" data-page="portofolio">
+
+        <header>
+          <h2 class="h2 article-title">Portofolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Website</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Visualization</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Deep Learning</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Large Language Model (LLM)</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Website</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Visualization</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Deep Learning</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Large Language Model (LLM)</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="website">
+              <a href="https://databits.co-id.id/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/databits.webp" alt="databits" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Databits Company Website</h3>
+
+                <p class="project-category">Website</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/nafamubarokhusni/MALT1-bioactivity-prediction-app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bioactivity-prediction-app.webp" alt="bioactivity-prediction-app" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bioactivity Prediction App</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="website">
+              <a href="https://github.com/Tematik-Way-Kalam/Website-Wisata-WayKalam">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/website-way-kalam.webp" alt="website-way-kalam" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Website Desa Wisata Way Kalam</h3>
+
+                <p class="project-category">Website</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="large language model (llm)">
+              <a href="https://github.com/nafamubarokhusni/News-Summary">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/news-summarize.webp" alt="news-summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">News-Summary</h3>
+
+                <p class="project-category">Large Language Model (LLM)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="website">
+              <a href="https://madani.ukm.itera.ac.id/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/website-madani.webp" alt="website-madani" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Website Madani</h3>
+
+                <p class="project-category">Website</p>
+
+              </a>
+            </li>
+
+            <!-- <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PUBLICATION
+      -->
+
+      <article class="publication" data-page="publication">
+
+        <header>
+          <h2 class="h2 article-title">Publication</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://ejournal.radenintan.ac.id/index.php/IJECS/article/view/20899">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/paper-1.webp" alt="Analysis of Google Stock Prices from 2020 to 2023 using the GARCH Method" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Time-Series</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-12-30">Dec 30, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Analysis of Google Stock Prices from 2020 to 2023 using the GARCH Method</h3>
+
+                  <p class="blog-text">
+                    Google Stock Price Prediction using GARCH Model
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://prosiding-senada.upnjatim.ac.id/index.php/senada/article/view/392">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/paper-2.webp" alt="Interpolasi Curah Hujan Menggunakan Model Spatial Ordinary Kriging di Kabupaten Tulang Bawang Barat" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Geo-Spatial</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-10-09">Oct 09, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Interpolasi Curah Hujan Menggunakan Model Spatial Ordinary Kriging di Kabupaten Tulang Bawang Barat</h3>
+
+                  <p class="blog-text">
+                    Rainfall Interpolation using Spatial Ordinary Kriging Model in Tulang Bawang Barat Regency
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://prosiding-senada.upnjatim.ac.id/index.php/senada/article/view/460">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/paper-3.webp" alt="Fine-Tuning LLM Llama 3 dengan PySpark dan QLoRa pada Data Penelitian Ilmiah" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Large Language Model</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-07-25">Jul 25, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Fine-Tuning LLM Llama 3 dengan PySpark dan QLoRa pada Data Penelitian Ilmiah</h3>
+
+                  <p class="blog-text">
+                    Fine-Tuning LLM Llama 3 with PySpark and QLoRa on Scientific Research Data.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <!-- <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253319.25718976132!2d107.74390379611123!3d-7.22790538779009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68b1da91e40087%3A0x401e8f1fc28c880!2sGarut%2C%20Kota%20Kulon%2C%20Garut%20Kota%2C%20Garut%20Regency%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1750861423442!5m2!1sen!2sid"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://fabform.io/f/3ZgZpL3" method="POST" class="form" data-form>
+            <div class="input-wrapper">
+              <label>
+          <!-- <span class="sr-only">Full name</span> -->
+          <input type="text" name="name" class="form-input" placeholder="Full name" required>
+              </label>
+              <label>
+          <!-- <span class="sr-only">Email address</span> -->
+          <input type="email" name="email" class="form-input" placeholder="Email address" required>
+              </label>
+            </div>
+            <label>
+              <!-- <span class="sr-only">Your Message</span> -->
+              <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+            </label>
+            <button class="form-btn" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
