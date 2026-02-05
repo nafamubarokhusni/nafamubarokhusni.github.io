@@ -7,7 +7,7 @@ const navItems = {
   '/blog': {
     name: 'blog',
   },
-  'https://portofolio-eta-ashen-24.vercel.app/': {
+  'https://portofolio.hnmtech.me/': {
     name: 'portofolio',
   },
 }
