@@ -4,11 +4,11 @@ import Link from 'next/link'
 const projects = [
   {
     name: 'Databits',
-    url: 'https://databits.co-id.id/',
+    url: 'https://databitsid.tech/',
   },
   {
     name: 'Databits Convert',
-    url: 'https://databits.co-id.id/convert/',
+    url: 'https://convert.databitsid.tech/',
   },
   {
     name: 'News Summary',
