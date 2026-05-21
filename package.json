@@ -13,9 +13,9 @@
     "@vercel/analytics": "^1.6.1",
     "@vercel/speed-insights": "^1.0.9",
     "geist": "1.7.1",
-    "next": "^16.0.10",
+    "next": "^16.2.6",
     "next-mdx-remote": "^6.0.0",
-    "postcss": "^8.4.35",
+    "postcss": "^8.5.15",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "sugar-high": "^0.6.0",
@@ -25,5 +25,11 @@
   "devDependencies": {
     "autoprefixer": "^10.4.24",
     "baseline-browser-mapping": "^2.9.19"
+  },
+  "pnpm": {
+    "overrides": {
+      "postcss": ">=8.5.10",
+      "nanoid": ">=3.3.8"
+    }
   }
 }
